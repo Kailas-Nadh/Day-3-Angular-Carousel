@@ -14,7 +14,9 @@ export class CardComponent {
     id: 0,
     title: " ",
     description: "",
-    weight: 0
+    weight: 0,
+    price:0.0,
+    images:""
     };
  
   //constructor() { }
