@@ -1,0 +1,24 @@
+<!-- <div class="container"> 
+    <div class="d-flex col">
+        <div class="d-flex row">
+            <my-bedroom></my-bedroom>
+            <my-bathroom></my-bathroom>
+        </div>
+        <div class="d-flex row">
+            <my-livingroom></my-livingroom>
+        </div>
+        <div class="d-flex row">
+            <my-diningroom></my-diningroom>
+            <my-kitchen></my-kitchen>
+        </div>
+    </div>
+</div>
+
+
+
+
+ -->
+<input [(ngModel)]="email" name="email" placeholder="email" type="email" (keydown)="checkData($event)">
+<button class="btn btn-primary" [class.btn-clr]="isOk" [(ngModel)]="email">Submit</button>
+<p>{{email}}</p>
+<img src="{{imageDetails.src}}" [alt]=imageDetails.src style="height: 200px;">

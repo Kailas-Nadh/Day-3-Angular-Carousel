@@ -1,0 +1,14 @@
+.do-not-press{
+    background-color: crimson;
+    padding:24px;
+    color: white;
+    border-right:solid 12px cyan ;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    // border-bottom-left-radius: 12px;
+    font-family: "Roboto Mono", monospace;
+    cursor: pointer;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 8% 100%, 0 70%);
+}
+

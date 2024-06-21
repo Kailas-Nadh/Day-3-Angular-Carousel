@@ -1,0 +1,14 @@
+@for(category of categories; track category.name){
+    <div class="row">
+        <h1>{{category.name}}</h1>
+        <div class="carousel">
+            @for (item of category.products; track item.id) {
+                <div class="col">
+                    <my-card [product]="item"></my-card>
+               
+            </div>
+                }
+           
+        </div>
+    </div>
+}
